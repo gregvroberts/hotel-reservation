@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d428eb45-9026-43a8-8162-77c7f572a95c/deploy-status)](https://app.netlify.com/sites/gregvroberts-resort-rooms/deploys)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
