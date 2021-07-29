@@ -7,7 +7,7 @@ import {Route, Switch} from 'react-router-dom';
 import Navbar from './components/Navbar';
 
 
-import {BrowserRouter as Router} from 'react-router-dom';
+import {Router} from 'react-router-dom';
 import ReactGA from 'react-ga';
 import {createBrowserHistory} from 'history';
 
@@ -15,7 +15,7 @@ function App() {
     const history = createBrowserHistory();
 
     history.listen(location => {
-        ReactGA.initialize('your tracking Id');
+        ReactGA.initialize('G-QK4RZWGQV9');
         ReactGA.set({ page: location.pathname }); // Update the user's current page
         ReactGA.pageview(location.pathname); // Record a pageview for the given page
     });
